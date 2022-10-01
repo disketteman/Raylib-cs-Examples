@@ -35,7 +35,6 @@ namespace Examples
             core_input_mouse_wheel.Main();
             core_input_mouse.Main();
             core_input_multitouch.Main();
-            core_quat_conversion.Main();
             core_random_values.Main();
             core_scissor_test.Main();
             core_smooth_pixelperfect.Main();
@@ -80,7 +79,7 @@ namespace Examples
             textures_particles_blending.Main();
             textures_polygon.Main();
             textures_raw_data.Main();
-            textures_rectangle.Main();
+            textures_sprite_anim.Main();
             textures_sprite_button.Main();
             textures_sprite_explosion.Main();
             textures_srcrec_dstrec.Main();
@@ -114,7 +113,7 @@ namespace Examples
             models_loading_vox.Main();
             models_loading.Main();
             models_mesh_generation.Main();
-            models_mesh_picking.Main();
+            // models_mesh_picking.Main();
             models_orthographic_projection.Main();
             models_rlgl_solar_system.Main();
             models_skybox.Main();

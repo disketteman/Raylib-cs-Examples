@@ -18,7 +18,7 @@ using static Raylib_cs.KeyboardKey;
 
 namespace Examples
 {
-    public class textures_rectangle
+    public class textures_sprite_anim
     {
         public const int MAX_FRAME_SPEED = 15;
         public const int MIN_FRAME_SPEED = 1;

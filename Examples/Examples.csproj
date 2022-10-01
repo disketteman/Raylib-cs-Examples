@@ -10,9 +10,10 @@
   <ItemGroup>
     <Compile Remove="core/core_loading_thread.cs" />
     <Compile Remove="text/text_unicode.cs" />
+    <Compile Remove="models/models_mesh_picking.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Raylib-cs" Version="4.0.0.1" />
+    <PackageReference Include="Raylib-cs" Version="4.2.0.1" />
   </ItemGroup>
 </Project>

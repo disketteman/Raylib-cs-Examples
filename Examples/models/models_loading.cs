@@ -18,7 +18,6 @@
 *
 ********************************************************************************************/
 
-using System;
 using System.Numerics;
 using Raylib_cs;
 using static Raylib_cs.Raylib;
@@ -104,8 +103,6 @@ namespace Examples
                             Raylib.SetMaterialTexture(ref model, 0, MATERIAL_MAP_ALBEDO, ref texture);
                         }
                     }
-
-                    ClearDroppedFiles();    // Clear internal buffers
                 }
 
                 // Select model on mouse click

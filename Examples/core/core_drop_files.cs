@@ -41,7 +41,6 @@ namespace Examples
                 if (IsFileDropped())
                 {
                     files = Raylib.GetDroppedFiles();
-                    ClearDroppedFiles();
                 }
                 //----------------------------------------------------------------------------------
 
@@ -80,8 +79,6 @@ namespace Examples
 
             // De-Initialization
             //--------------------------------------------------------------------------------------
-            ClearDroppedFiles();    // Clear internal buffers
-
             CloseWindow();          // Close window and OpenGL context
             //--------------------------------------------------------------------------------------
 

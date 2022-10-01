@@ -92,9 +92,6 @@ namespace Examples
                             UnloadTexture(panorama);
                         }
                     }
-
-                    // Clear internal buffers
-                    ClearDroppedFiles();
                 }
                 //----------------------------------------------------------------------------------
 

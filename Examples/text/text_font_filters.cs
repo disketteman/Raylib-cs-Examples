@@ -102,7 +102,6 @@ namespace Examples
                         UnloadFont(font);
                         font = LoadFontEx(files[0], (int)fontSize, null, 0);
                     }
-                    ClearDroppedFiles();
                 }
                 //----------------------------------------------------------------------------------
 
