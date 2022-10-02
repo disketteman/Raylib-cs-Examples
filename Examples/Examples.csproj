@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="core/core_loading_thread.cs" />
-    <Compile Remove="text/text_unicode.cs" />
-    <Compile Remove="models/models_mesh_picking.cs" />
+    <Compile Remove="Core/LoadingThread.cs" />
+    <Compile Remove="Text/Unicode.cs" />
+    <Compile Remove="Models/MeshPicking.cs" />
   </ItemGroup>
 
   <ItemGroup>
